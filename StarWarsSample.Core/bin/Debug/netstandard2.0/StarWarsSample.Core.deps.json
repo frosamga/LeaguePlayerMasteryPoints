@@ -1,0 +1,171 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "3ea6ebea45d5b7c68d8d5978d7a9e65fc2e07e2d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "StarWarsSample.Core/1.0.0": {
+        "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Plugin.Json": "6.2.3",
+          "MvvmCross.Plugin.Messenger": "6.2.3",
+          "MvvmCross.Plugin.Visibility": "6.2.3",
+          "NETStandard.Library": "2.0.3",
+          "OxyPlot.Core": "2.0.0-unstable1035"
+        },
+        "runtime": {
+          "StarWarsSample.Core.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross/6.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Json/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Json.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Messenger/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Messenger.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Visibility/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Visibility.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "OxyPlot.Core/2.0.0-unstable1035": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/OxyPlot.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StarWarsSample.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wmeQhteQymYgTwDPSxfuLlWP8qkXKSCcMB0UNQi/SXl4/vvqwzsX3uP5A7kYzxsbthuFWau3Ni0ZyCL7pyb5Fw==",
+      "path": "acr.userdialogs/7.0.4",
+      "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmCross/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqJ0K3mJanygqo5oc9ZG/8e+GH2D2UaPJhE9+8xyUT8uPn/Sp4XfO9pADzavcLO9cRUWpj72CNzNT6xt15vf9w==",
+      "path": "mvvmcross/6.2.3",
+      "hashPath": "mvvmcross.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Json/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWx10i7YjnqkZCnGixCBt0WzWnPTURHVYgubgGhadjonFBF2RtzanDJS1Rp/LvIXDIOM3tsLlyxR2Q0daIUbVw==",
+      "path": "mvvmcross.plugin.json/6.2.3",
+      "hashPath": "mvvmcross.plugin.json.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Messenger/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sbh9dCnkgpMcywPzwVMBDmCaIC1tpraupHSzNdPdDxQDDz5whD49xsNC/wI/FEOh20De4ivdmxoc9cLPZbG1gQ==",
+      "path": "mvvmcross.plugin.messenger/6.2.3",
+      "hashPath": "mvvmcross.plugin.messenger.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Visibility/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g+BmStO7H++UUthAwX32w/x0zFQd2DwIiQ8j2CfbYKaVhJmNH/wCkmoFVXYtsANzgXIBqwnxGGvG/N40Hrx0Iw==",
+      "path": "mvvmcross.plugin.visibility/6.2.3",
+      "hashPath": "mvvmcross.plugin.visibility.6.2.3.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "OxyPlot.Core/2.0.0-unstable1035": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T3TEu0x3cDUrveKlMDhWfjZUL67yP6BwPgbH8SV9VCongaCRGb/LxIyIgey026x+uNHMGa7UWveoXIqRFoOd0A==",
+      "path": "oxyplot.core/2.0.0-unstable1035",
+      "hashPath": "oxyplot.core.2.0.0-unstable1035.nupkg.sha512"
+    }
+  }
+}

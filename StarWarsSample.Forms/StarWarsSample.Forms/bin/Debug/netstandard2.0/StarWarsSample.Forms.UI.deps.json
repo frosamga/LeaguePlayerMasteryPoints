@@ -1,0 +1,443 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "2732124d77a8622a58ce69a77a8671d591bfa6aa"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "StarWarsSample.Forms.UI/1.0.0": {
+        "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.5.4",
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Forms": "6.2.3",
+          "MvvmCross.Plugin.Json": "6.2.3",
+          "MvvmCross.Plugin.JsonLocalization": "6.2.3",
+          "MvvmCross.Plugin.Messenger": "6.2.3",
+          "MvvmCross.Plugin.ResourceLoader": "6.2.3",
+          "NETStandard.Library": "2.0.3",
+          "OxyPlot.Xamarin.Forms": "1.0.0",
+          "StarWarsSample.Core": "1.0.0",
+          "Xamarin.FFImageLoading.Forms": "2.4.3.840",
+          "Xamarin.FFImageLoading.Svg": "2.4.3.840",
+          "Xamarin.FFImageLoading.Svg.Forms": "2.4.3.840",
+          "Xamarin.FFImageLoading.Transformations": "2.4.3.840",
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "StarWarsSample.Forms.UI.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.5.4": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {
+            "assemblyVersion": "2.5.4.0",
+            "fileVersion": "2.5.4.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross/6.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Forms/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Forms.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.File/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.File.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Json/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Json.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.JsonLocalization/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Plugin.Json": "6.2.3",
+          "MvvmCross.Plugin.ResourceLoader": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.JsonLocalization.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Messenger/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Messenger.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.ResourceLoader/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Plugin.File": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.ResourceLoader.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Visibility/6.2.3": {
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Visibility.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "OxyPlot.Core/2.0.0-unstable1035": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/OxyPlot.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "OxyPlot.Xamarin.Forms/1.0.0": {
+        "dependencies": {
+          "OxyPlot.Core": "2.0.0-unstable1035",
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10/OxyPlot.Xamarin.Forms.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp/1.60.0": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.60.0.0",
+            "fileVersion": "1.60.0.0"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.3.840": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.3.840": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.3.840",
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Svg/2.4.3.840": {
+        "dependencies": {
+          "SkiaSharp": "1.60.0",
+          "Xamarin.FFImageLoading": "2.4.3.840"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Svg.Platform.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Svg.Forms/2.4.3.840": {
+        "dependencies": {
+          "Xamarin.FFImageLoading.Forms": "2.4.3.840",
+          "Xamarin.FFImageLoading.Svg": "2.4.3.840"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Svg.Forms.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Transformations/2.4.3.840": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.3.840"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.Forms/3.4.0.1039999": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "StarWarsSample.Core/1.0.0": {
+        "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Plugin.Json": "6.2.3",
+          "MvvmCross.Plugin.Messenger": "6.2.3",
+          "MvvmCross.Plugin.Visibility": "6.2.3",
+          "OxyPlot.Core": "2.0.0-unstable1035"
+        },
+        "runtime": {
+          "StarWarsSample.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StarWarsSample.Forms.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wmeQhteQymYgTwDPSxfuLlWP8qkXKSCcMB0UNQi/SXl4/vvqwzsX3uP5A7kYzxsbthuFWau3Ni0ZyCL7pyb5Fw==",
+      "path": "acr.userdialogs/7.0.4",
+      "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-StAHJe/MHxcl+jBlBgmqNezuwDEJaGWkFriY6H8pWP4P3G3wKrhGGGu5fk0pY9Pzjqv+9cZo3TFEN6LeN8/KKA==",
+      "path": "com.airbnb.xamarin.forms.lottie/2.5.4",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.2.5.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmCross/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqJ0K3mJanygqo5oc9ZG/8e+GH2D2UaPJhE9+8xyUT8uPn/Sp4XfO9pADzavcLO9cRUWpj72CNzNT6xt15vf9w==",
+      "path": "mvvmcross/6.2.3",
+      "hashPath": "mvvmcross.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Forms/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irfgfK5Rd6SxLCSQvQb+XGdRgpDZN9/HsYXLyfneRP8qZxtVq0u7bjZweQZ/uxsEJzTg1dkGc6os/4W15X79vA==",
+      "path": "mvvmcross.forms/6.2.3",
+      "hashPath": "mvvmcross.forms.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.File/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-92F6pDrZlUrGYOcHmejUNyLktaQ+8cHNkdKs72lbSlhc5VrQXl6H1n9zlBmeDOfKh2zicQ3KD1BGRlpqUY8i8w==",
+      "path": "mvvmcross.plugin.file/6.2.3",
+      "hashPath": "mvvmcross.plugin.file.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Json/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWx10i7YjnqkZCnGixCBt0WzWnPTURHVYgubgGhadjonFBF2RtzanDJS1Rp/LvIXDIOM3tsLlyxR2Q0daIUbVw==",
+      "path": "mvvmcross.plugin.json/6.2.3",
+      "hashPath": "mvvmcross.plugin.json.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.JsonLocalization/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q5QDCLa4Cri/ZRszHQpcwUXQidvnQsVmDjAENfyiLhhaxE8l1U6Ihn0CLGDFtplCLoYtxsB6XP7gk2NR858oJg==",
+      "path": "mvvmcross.plugin.jsonlocalization/6.2.3",
+      "hashPath": "mvvmcross.plugin.jsonlocalization.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Messenger/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sbh9dCnkgpMcywPzwVMBDmCaIC1tpraupHSzNdPdDxQDDz5whD49xsNC/wI/FEOh20De4ivdmxoc9cLPZbG1gQ==",
+      "path": "mvvmcross.plugin.messenger/6.2.3",
+      "hashPath": "mvvmcross.plugin.messenger.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.ResourceLoader/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nxJuR97cNr0VkAxVRHdsBe4DGcXAlto7XF7a67CLPY71OtjpahJJqVNeRm+j49rXqs11UWBquJTtTrkDR8KtYw==",
+      "path": "mvvmcross.plugin.resourceloader/6.2.3",
+      "hashPath": "mvvmcross.plugin.resourceloader.6.2.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Visibility/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g+BmStO7H++UUthAwX32w/x0zFQd2DwIiQ8j2CfbYKaVhJmNH/wCkmoFVXYtsANzgXIBqwnxGGvG/N40Hrx0Iw==",
+      "path": "mvvmcross.plugin.visibility/6.2.3",
+      "hashPath": "mvvmcross.plugin.visibility.6.2.3.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "OxyPlot.Core/2.0.0-unstable1035": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T3TEu0x3cDUrveKlMDhWfjZUL67yP6BwPgbH8SV9VCongaCRGb/LxIyIgey026x+uNHMGa7UWveoXIqRFoOd0A==",
+      "path": "oxyplot.core/2.0.0-unstable1035",
+      "hashPath": "oxyplot.core.2.0.0-unstable1035.nupkg.sha512"
+    },
+    "OxyPlot.Xamarin.Forms/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQdB7iuKK5sXGO2D4WSMuLwG6VQ1Mmk6gAU+3fIePyQG5nE3NUDb7THdZ/csxg9Q6t7py49Z6d1twcbhGvpF/w==",
+      "path": "oxyplot.xamarin.forms/1.0.0",
+      "hashPath": "oxyplot.xamarin.forms.1.0.0.nupkg.sha512"
+    },
+    "SkiaSharp/1.60.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HoSNIZH54rinevEhLUWdeclr+H/QdmOp252+Tt07HTXwQyvRl9eW32ga/X7T56wsR855SKprb0RcnBPRCzlqSA==",
+      "path": "skiasharp/1.60.0",
+      "hashPath": "skiasharp.1.60.0.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUcVwR/hfaG6/GZ28g8YDDKnXI2JMfT4goanYoYgKuqjLjM44qwivrhnBZ0Zt/pTDpqiGUmGTIoakHiDihTVQQ==",
+      "path": "xamarin.ffimageloading/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wych7662xwrXu2FZvUE+cc2ajPyhsuK2aNTHEvvcn880omgC9omtsQTpmbezUxtE6rsCXmVEp9rRPWktrBCfZQ==",
+      "path": "xamarin.ffimageloading.forms/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Svg/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X9LbSy+JlAHktTjONeUieTKvaeYZh2Xs0xWi7g7aZnYVmXOVQ2uKFnykx5qEpqy3IrJHypwamJHecss1WlRHdQ==",
+      "path": "xamarin.ffimageloading.svg/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.svg.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Svg.Forms/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qRU3p4cBThrUdB3SCKA16WpLG0ZtFh1fNj8nNa1NtDcz1yfsRmEGB2+Muj2Par3XdcAVq8jmH4U/HHwYQvTINA==",
+      "path": "xamarin.ffimageloading.svg.forms/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.svg.forms.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Transformations/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NkmpKWPFtp1/CYNFnBdobgLzwGMcr+ONjz0pQGol54x3aIzHtshNrggKEHYMJ9a0kUYLj+E8njAMixkZdpp++g==",
+      "path": "xamarin.ffimageloading.transformations/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.transformations.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.4.0.1039999": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XdGH8FFFH50/6/tJyFe5murtCI7CeS8Si7hwjWpu/1KeLhMcBSeHzKnc2T4rI3pbHPjIpLz/hPofZqdLLcDBiQ==",
+      "path": "xamarin.forms/3.4.0.1039999",
+      "hashPath": "xamarin.forms.3.4.0.1039999.nupkg.sha512"
+    },
+    "StarWarsSample.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
